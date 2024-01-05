@@ -12,7 +12,7 @@ CHECKS:
         warn("usage: wlg <path input> <path output> [OPTIONS] [OPTIO... <cr>");
         return EXIT_FAILURE;
     }
-
+    
     //checking for -h || --help option
     if(strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0)
     {

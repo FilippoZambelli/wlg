@@ -5,7 +5,7 @@ int main(int argc, char* argv[])
     /*------------------------------[CHECKS]-------------------------------*/
 CHECKS:
     info("[CHECKS]");
-
+    
     //checking if provided arguments number is valid
     if(argc<2)
     {
